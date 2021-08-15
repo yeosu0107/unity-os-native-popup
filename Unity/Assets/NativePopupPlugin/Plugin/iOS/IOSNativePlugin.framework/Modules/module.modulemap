@@ -1,0 +1,11 @@
+framework module IOSNativePlugin {
+  umbrella header "IOSNativePlugin.h"
+
+  export *
+  module * { export * }
+}
+
+module IOSNativePlugin.Swift {
+    header "IOSNativePlugin-Swift.h"
+    requires objc
+}

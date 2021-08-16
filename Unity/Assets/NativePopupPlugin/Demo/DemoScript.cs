@@ -3,6 +3,10 @@ using NativePopup;
 
 public class DemoScript : MonoBehaviour
 {
+    public void Start()
+    {
+        NativeMessage.GetInstance().Initialize(true);
+    }
     public void OpenAlertOne()
     {
         Debug.Log("open alert with one button");

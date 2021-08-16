@@ -27,20 +27,28 @@ namespace NativePopup
 
         private ButtonCallback okCallback = null;
         private ButtonCallback cancelCallback = null;
-
+        
         public static IOSNativeMessage GetInstance()
         {
             if (instance == null)
             {
                 var emptyObj = new GameObject(objectName).AddComponent<IOSNativeMessage>();
                 instance = emptyObj.GetComponent<IOSNativeMessage>();
-
-#if !UNITY_EDITOR
-        _init();
-#endif
             }
 
             return instance;
+        }
+
+        public void Initialize(bool isDontDestoryOnLoad = false)
+        {
+            if (isDontDestoryOnLoad == true)
+            {
+                DontDestroyOnLoad(this.gameObject);
+            }
+            
+#if !UNITY_EDITOR
+            _init();
+#endif
         }
 
         public void ShowAlertOneButton(string title, string message, string okStr, ButtonCallback callback = null)

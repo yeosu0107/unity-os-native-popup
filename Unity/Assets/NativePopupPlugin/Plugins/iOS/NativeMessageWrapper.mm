@@ -16,12 +16,12 @@ static const char* _nativeMessageObjectName = "NativeMessageObject";
 static NativeMessageBridge* _nativeMessageBridge = [NativeMessageBridge alloc];
 
 - (void)OnOk {
-    NSLog(@"OnOK");
+    //NSLog(@"OnOK");
     UnitySendMessage(_nativeMessageObjectName, [@"OnOk" UTF8String], [@"Ok" UTF8String]);
 }
 
 - (void)OnCancel {
-    NSLog(@"OnCancel");
+    //NSLog(@"OnCancel");
     UnitySendMessage(_nativeMessageObjectName, [@"OnCancel" UTF8String], [@"Cancel" UTF8String]);
 }
 

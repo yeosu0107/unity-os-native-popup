@@ -23,8 +23,7 @@ namespace NativePopup
 #if UNITY_IOS
             return IOSNativeMessage.GetInstance();
 #elif UNITY_ANDROID
-            Debug.LogWarning("NativeMessage dose not support android platform yet.");
-            return null;
+            return AndroidNativeMessage.GetInstance();
 #endif
             Debug.LogError("NativeMessage supports only ios and android platform.");
             return null;

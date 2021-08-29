@@ -61,7 +61,7 @@ namespace NativePopup
 #endif
             if (callback != null)
             {
-                okCallback += callback;
+                okCallback = callback;
             }
 
             _ShowAlertOneButton(title, message, okStr);
@@ -78,12 +78,12 @@ namespace NativePopup
 #endif
             if (okCallback != null)
             {
-                this.okCallback += okCallback;
+                this.okCallback = okCallback;
             }
 
             if (cancelCallback != null)
             {
-                this.cancelCallback += cancelCallback;
+                this.cancelCallback = cancelCallback;
             }
 
             _ShowAlertTwoButton(title, message, okStr, cancelStr);

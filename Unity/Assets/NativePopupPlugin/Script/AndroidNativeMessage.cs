@@ -15,6 +15,9 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
     private const string objectName = "NativeMessageObject";
     private static AndroidNativeMessage instance = null;
     
+    private ButtonCallback okCallback = null;
+    private ButtonCallback cancelCallback = null;
+    
     public static AndroidNativeMessage GetInstance()
     {
         if (instance == null)
@@ -50,6 +53,11 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
 #elif !UNITY_ANDROID
             return;
 #endif
+            if (callback != null)
+            {
+                okCallback = callback;
+            }
+            androidObj.CallStatic("showAlertOneButton", message, okStr);
         }
 
         public void ShowAlertTwoButton(string title, string message, string okStr, string cancelStr,
@@ -61,6 +69,18 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
 #elif !UNITY_ANDROID
             return;
 #endif
+
+            if (okCallback != null)
+            {
+                this.okCallback = okCallback;
+            }
+
+            if (cancelCallback != null)
+            {
+                this.cancelCallback = cancelCallback;
+            }
+            
+            androidObj.CallStatic("showAlertTwoButton", message, okStr, cancelStr);
         }
 
         public void ShowToast(string message, double seconds)
@@ -76,12 +96,14 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
 
         public void OnOk(string response)
         {
-
+            okCallback?.Invoke(response);
+            okCallback = null;
         }
 
         public void OnCancel(string response)
         {
-
+            cancelCallback?.Invoke(response);
+            cancelCallback = null;
         }
 }
 #endif

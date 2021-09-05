@@ -1,3 +1,2 @@
 rootProject.name = "AndroidNativePlugin"
-include ':app'
 include ':AndroidNativePlugin'

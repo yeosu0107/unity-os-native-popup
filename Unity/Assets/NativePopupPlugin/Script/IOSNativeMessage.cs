@@ -89,7 +89,7 @@ namespace NativePopup
             _ShowAlertTwoButton(title, message, okStr, cancelStr);
         }
 
-        public void ShowToast(string message, double seconds)
+        public void ShowToast(string message, double duration)
         {
 #if UNITY_EDITOR
             Debug.LogWarning("NativeMessage not support editor");
@@ -97,7 +97,7 @@ namespace NativePopup
 #elif !UNITY_IOS
         return;
 #endif
-            _ShowToast(message, seconds);
+            _ShowToast(message, duration);
         }
 
         public void OnOk(string response)

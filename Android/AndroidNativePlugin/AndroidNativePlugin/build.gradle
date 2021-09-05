@@ -36,7 +36,7 @@ dependencies {
     compileOnly fileTree(dir:'libs', includes: ['*.jar'])
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation "androidx.core:core-ktx:+"
+    implementation "androidx.core:core-ktx:1.6.0"
     implementation 'com.google.android.material:material:1.4.0'
 
     testImplementation 'junit:junit:4.+'

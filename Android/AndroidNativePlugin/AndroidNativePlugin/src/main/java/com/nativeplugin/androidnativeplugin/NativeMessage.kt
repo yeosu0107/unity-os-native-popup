@@ -17,21 +17,27 @@ object NativeMessage {
     }
 
     @JvmStatic
-    fun showToast(message: String) {
+    fun showToast(message: String, duration: Int) {
         val context = UnityPlayer.currentActivity.getApplicationContext();
 
+        val toastDuration = if(duration == 0) {
+            Toast.LENGTH_SHORT
+        } else {
+            Toast.LENGTH_LONG
+        }
+
         UnityPlayer.currentActivity.runOnUiThread {
-            Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, message, toastDuration).show();
         }
     }
 
     @JvmStatic
-    fun showAlertOneButton(message: String, okStr: String) {
+    fun showAlertOneButton(title: String, message: String, okStr: String) {
         val context = UnityPlayer.currentActivity;
 
         UnityPlayer.currentActivity.runOnUiThread {
             AlertDialog.Builder(context)
-                .setTitle("Alert")
+                .setTitle(title)
                 .setMessage(message)
                 .setPositiveButton(okStr, OnOk)
                 .show();
@@ -39,12 +45,12 @@ object NativeMessage {
     }
 
     @JvmStatic
-    fun showAlertTwoButton(message: String, okStr: String, cancelStr: String) {
+    fun showAlertTwoButton(title: String, message: String, okStr: String, cancelStr: String) {
         val context = UnityPlayer.currentActivity;
 
         UnityPlayer.currentActivity.runOnUiThread {
             AlertDialog.Builder(context)
-                .setTitle("Alert")
+                .setTitle(title)
                 .setMessage(message)
                 .setPositiveButton(okStr, OnOk)
                 .setNegativeButton(cancelStr, OnCancel)

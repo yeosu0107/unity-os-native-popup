@@ -57,7 +57,7 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
             {
                 okCallback = callback;
             }
-            androidObj.CallStatic("showAlertOneButton", message, okStr);
+            androidObj.CallStatic("showAlertOneButton", title, message, okStr);
         }
 
         public void ShowAlertTwoButton(string title, string message, string okStr, string cancelStr,
@@ -80,10 +80,10 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
                 this.cancelCallback = cancelCallback;
             }
             
-            androidObj.CallStatic("showAlertTwoButton", message, okStr, cancelStr);
+            androidObj.CallStatic("showAlertTwoButton", title, message, okStr, cancelStr);
         }
 
-        public void ShowToast(string message, double seconds)
+        public void ShowToast(string message, double duration)
         {
 #if UNITY_EDITOR
             Debug.LogWarning("NativeMessage not support editor");
@@ -91,7 +91,7 @@ public class AndroidNativeMessage : MonoBehaviour, INativeMessage
 #elif !UNITY_ANDROID
             return;
 #endif
-            androidObj.CallStatic("showToast", message);
+            androidObj.CallStatic("showToast", message, duration.Equals(0) == false ? 1 : 0);
         }
 
         public void OnOk(string response)

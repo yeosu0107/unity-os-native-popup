@@ -18,7 +18,7 @@ namespace NativePopup
         private static extern void _ShowAlertTwoButton(string title, string message, string ok, string cancel);
 
         [DllImport("__Internal")]
-        private static extern void _ShowToast(string message, double seconds);
+        private static extern void _ShowToast(string message, double duration);
 
         #endregion
 

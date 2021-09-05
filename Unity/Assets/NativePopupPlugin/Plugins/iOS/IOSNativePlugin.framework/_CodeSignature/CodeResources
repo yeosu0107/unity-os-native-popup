@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IOSNativePlugin-Swift.h</key>
 		<data>
-		RBrYghOjI0wyfSwQA3VhqOROEwg=
+		CX7FOkxcEXp1bu3fK5dEE4E06Bo=
 		</data>
 		<key>Headers/IOSNativePlugin.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m359KLYY6ENpOwYw3Rt4ugdnvQo=
+		JXr/PDDlmOzWrxpNBQFao3CGd18=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		0THarsanh4xTC3fLR2vwEJTcVJc=
+		gf2WEBMqaqCdZpjrWzOcLpS8WVs=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		0pUhQz9k8tPCaLH4/aGscg6sW+I=
+		+dr2G+n3uRxhD6eJuZsuTKK0I1I=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		0pUhQz9k8tPCaLH4/aGscg6sW+I=
+		+dr2G+n3uRxhD6eJuZsuTKK0I1I=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		0THarsanh4xTC3fLR2vwEJTcVJc=
+		gf2WEBMqaqCdZpjrWzOcLpS8WVs=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		0THarsanh4xTC3fLR2vwEJTcVJc=
+		gf2WEBMqaqCdZpjrWzOcLpS8WVs=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm.swiftmodule</key>
 		<data>
-		XrgnZ5BQ1qCRNgPxR3gTisTSjX4=
+		cBYypLCQpnFeK1DSr8YdE7S7lLY=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qCxb1skSkKXjpCgSkUlI3s0YJT8=
+		q0Aqrjpakr0LYGXty0QMlJtCkSw=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		qCxb1skSkKXjpCgSkUlI3s0YJT8=
+		q0Aqrjpakr0LYGXty0QMlJtCkSw=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		XrgnZ5BQ1qCRNgPxR3gTisTSjX4=
+		cBYypLCQpnFeK1DSr8YdE7S7lLY=
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/IOSNativePlugin.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		XrgnZ5BQ1qCRNgPxR3gTisTSjX4=
+		cBYypLCQpnFeK1DSr8YdE7S7lLY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RBrYghOjI0wyfSwQA3VhqOROEwg=
+			CX7FOkxcEXp1bu3fK5dEE4E06Bo=
 			</data>
 			<key>hash2</key>
 			<data>
-			cvuQGvOA2agQahbUauuCQBOJv/RwPaWIvswNNXP+MAk=
+			EFtq8A+1SAOZRyMWJjmPeseYXqMb+Q1keV6tAfkB14o=
 			</data>
 		</dict>
 		<key>Headers/IOSNativePlugin.h</key>
@@ -109,55 +109,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0THarsanh4xTC3fLR2vwEJTcVJc=
+			gf2WEBMqaqCdZpjrWzOcLpS8WVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sssOxnPy4Q5NhZw8tHtLS+/YHEIpWdckLVNP0n17Ptc=
+			vfS6o9aYDVXXcj8YVALgiAEL+dlneqjqa78+Fm7qIN0=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0pUhQz9k8tPCaLH4/aGscg6sW+I=
+			+dr2G+n3uRxhD6eJuZsuTKK0I1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			7fIg0sLzB6xrm7Px7zpiJHLNUoj4oyUy4g7yjWtbSBA=
+			TyAhcIT4Ey7QlXQNEVP5CZ6XU4I0oGa083d+QXb21Ak=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0pUhQz9k8tPCaLH4/aGscg6sW+I=
+			+dr2G+n3uRxhD6eJuZsuTKK0I1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			7fIg0sLzB6xrm7Px7zpiJHLNUoj4oyUy4g7yjWtbSBA=
+			TyAhcIT4Ey7QlXQNEVP5CZ6XU4I0oGa083d+QXb21Ak=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0THarsanh4xTC3fLR2vwEJTcVJc=
+			gf2WEBMqaqCdZpjrWzOcLpS8WVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sssOxnPy4Q5NhZw8tHtLS+/YHEIpWdckLVNP0n17Ptc=
+			vfS6o9aYDVXXcj8YVALgiAEL+dlneqjqa78+Fm7qIN0=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0THarsanh4xTC3fLR2vwEJTcVJc=
+			gf2WEBMqaqCdZpjrWzOcLpS8WVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			sssOxnPy4Q5NhZw8tHtLS+/YHEIpWdckLVNP0n17Ptc=
+			vfS6o9aYDVXXcj8YVALgiAEL+dlneqjqa78+Fm7qIN0=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm.swiftdoc</key>
@@ -175,11 +175,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XrgnZ5BQ1qCRNgPxR3gTisTSjX4=
+			cBYypLCQpnFeK1DSr8YdE7S7lLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			MsmxjIHmBK3s0lt08Slbolfwon4BAUelSi6TUf+av0o=
+			RNiP1/dvj97tlPZMvyEWCQOT/1qr0T2EsBbID7giD78=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -197,11 +197,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qCxb1skSkKXjpCgSkUlI3s0YJT8=
+			q0Aqrjpakr0LYGXty0QMlJtCkSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			lAQZtFedf0j1LAx7lsTexvzmED3m1aJLJ7JKDPpqZkg=
+			r2OaNh1jt382VlnXYyRUlkJAAKJrSeZo1Y2HEvN/b08=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/arm64.swiftdoc</key>
@@ -219,11 +219,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qCxb1skSkKXjpCgSkUlI3s0YJT8=
+			q0Aqrjpakr0LYGXty0QMlJtCkSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			lAQZtFedf0j1LAx7lsTexvzmED3m1aJLJ7JKDPpqZkg=
+			r2OaNh1jt382VlnXYyRUlkJAAKJrSeZo1Y2HEvN/b08=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -241,11 +241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XrgnZ5BQ1qCRNgPxR3gTisTSjX4=
+			cBYypLCQpnFeK1DSr8YdE7S7lLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			MsmxjIHmBK3s0lt08Slbolfwon4BAUelSi6TUf+av0o=
+			RNiP1/dvj97tlPZMvyEWCQOT/1qr0T2EsBbID7giD78=
 			</data>
 		</dict>
 		<key>Modules/IOSNativePlugin.swiftmodule/armv7.swiftdoc</key>
@@ -263,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XrgnZ5BQ1qCRNgPxR3gTisTSjX4=
+			cBYypLCQpnFeK1DSr8YdE7S7lLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			MsmxjIHmBK3s0lt08Slbolfwon4BAUelSi6TUf+av0o=
+			RNiP1/dvj97tlPZMvyEWCQOT/1qr0T2EsBbID7giD78=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

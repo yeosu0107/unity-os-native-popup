@@ -32,8 +32,8 @@ import UIKit
         nativeViewController?.showAlert(title: title, message: message, ok: ok, cancel: cancel)
     }
     
-    @objc public func showToast(message:String, seconds:Double) {
-        nativeViewController?.showToast(message: message, seconds: seconds)
+    @objc public func showToast(message:String, duration:Double) {
+        nativeViewController?.showToast(message: message, duration: duration)
     }
 }
 

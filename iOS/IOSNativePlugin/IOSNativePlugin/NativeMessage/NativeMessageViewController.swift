@@ -42,7 +42,7 @@ class NativeMessageViewController : NSObject {
         uvc.present(alert, animated: true, completion: nil)
     }
     
-    func showToast(message: String, seconds: Double) {
+    func showToast(message: String, duration: Double) {
         let width = widthSizeAboutMessage(message: message)
         let toastLabel = UILabel(frame: CGRect(x: uvc.view.frame.size.width/2-width/2, y: uvc.view.frame.size.height-100, width: width, height: 35))
         toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
@@ -55,7 +55,7 @@ class NativeMessageViewController : NSObject {
         toastLabel.clipsToBounds = true
         
         uvc.view.addSubview(toastLabel)
-        UIView.animate(withDuration: seconds, delay: 0.1, options: UIView.AnimationOptions.curveEaseOut, animations: {
+        UIView.animate(withDuration: duration, delay: 0.1, options: UIView.AnimationOptions.curveEaseOut, animations: {
             toastLabel.alpha = 0.0
         }, completion: {(isCompleted) in
             toastLabel.removeFromSuperview()

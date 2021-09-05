@@ -24,7 +24,7 @@ class NativeMessageManager : NSObject {
         _viewController.showAlert(title: title, message: message, ok: ok, cancel: cancel)
     }
     
-    func showToast(message:String, seconds:Double) {
-        _viewController.showToast(message: message, seconds: seconds)
+    func showToast(message:String, duration:Double) {
+        _viewController.showToast(message: message, duration: duration)
     }
 }

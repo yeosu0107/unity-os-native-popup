@@ -221,7 +221,7 @@ SWIFT_CLASS("_TtC15IOSNativePlugin13NativeMessage")
 - (void)initializeWithVc:(UIViewController * _Nonnull)vc delegate:(id <NativeMessageProtocol> _Nullable)delegate;
 - (void)showAlertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message ok:(NSString * _Nonnull)ok;
 - (void)showAlertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message ok:(NSString * _Nonnull)ok cancel:(NSString * _Nonnull)cancel;
-- (void)showToastWithMessage:(NSString * _Nonnull)message seconds:(double)seconds;
+- (void)showToastWithMessage:(NSString * _Nonnull)message duration:(double)duration;
 @end
 
 
@@ -459,7 +459,7 @@ SWIFT_CLASS("_TtC15IOSNativePlugin13NativeMessage")
 - (void)initializeWithVc:(UIViewController * _Nonnull)vc delegate:(id <NativeMessageProtocol> _Nullable)delegate;
 - (void)showAlertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message ok:(NSString * _Nonnull)ok;
 - (void)showAlertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message ok:(NSString * _Nonnull)ok cancel:(NSString * _Nonnull)cancel;
-- (void)showToastWithMessage:(NSString * _Nonnull)message seconds:(double)seconds;
+- (void)showToastWithMessage:(NSString * _Nonnull)message duration:(double)duration;
 @end
 
 

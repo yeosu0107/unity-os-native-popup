@@ -45,8 +45,8 @@ extern "C" {
                                                  cancel:[NSString stringWithUTF8String:cancel]];
     }
 
-    void _ShowToast(const char* message, double seconds) {
+    void _ShowToast(const char* message, double duration) {
         [[NativeMessage getInstance] showToastWithMessage:[NSString stringWithUTF8String:message]
-                                                  seconds:seconds];
+                                                 duration:duration];
     }
 }

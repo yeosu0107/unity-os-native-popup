@@ -9,7 +9,11 @@ UnityOSNativePopup is a unitypackage that helps you use os popup on Unity quickl
 
 ### Support Platform
 * Android
+<img width="500" alt="Android" src="https://user-images.githubusercontent.com/27134499/136758133-4e030ba6-83f5-41b4-bf37-4aef1672af04.png">
+
 * iOS
+<img width="500" alt="iOS" src="https://user-images.githubusercontent.com/27134499/136758166-42b00852-5cab-4499-951f-b34b02eb82ae.png">
+
 > Warning log is returned when used in the Unity editor.
 
 ## How to use

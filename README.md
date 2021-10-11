@@ -14,7 +14,7 @@ UnityOSNativePopup is a unitypackage that helps you use os popup on Unity quickl
 
 ## How to use
 
-For a detailed description of each function, please refer to the [Wiki](https://github.com/yeosu0107/UnityOSNativePopup/wiki).
+For a detailed description of each function, please check to the [Wiki](https://github.com/yeosu0107/UnityOSNativePopup/wiki).
 
 ### Initialize
 To use UnityOSNativePopup, you must initialize it.<br/>

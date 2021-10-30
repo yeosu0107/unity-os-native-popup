@@ -61,8 +61,8 @@ To show Toast Message, call function like this.
 ```
 NativeMessage.GetInstance()?.ShowToast("toast text", duration);
 ```
-> For iOS, you can specify a duration.<br/>
-For Android, it is fixed to a specific time. (0 is 2 sec, not 0 is 3.5 sec) 
+> On iOS, you can specify a duration.<br/>
+On Android, it is fixed to a specific time. (0 is 2 sec, not 0 is 3.5 sec) 
 
 ## Example
 You can use example **Assets > NativePopupPlugin > Demo > Demo.unity** in unitypackage

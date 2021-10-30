@@ -16,6 +16,12 @@ UnityOSNativePopup is a unitypackage that helps you use os popup on Unity quickl
 
 > Warning log is returned when used in the Unity editor.
 
+## Getting Started
+You can install UnityOSNativePopup into your Unity project using the unitypackage.<br/>
+Download the latest version from [release](https://github.com/yeosu0107/UnityOSNativePopup/releases).
+And import the downloaded unitypackage into your project.
+
+
 ## How to use
 
 For a detailed description of each function, please check to the [Wiki](https://github.com/yeosu0107/UnityOSNativePopup/wiki).

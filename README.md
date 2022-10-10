@@ -1,6 +1,6 @@
-# UnityOSNativePopup
+# unity-os-native-popup
 
-UnityOSNativePopup is a unitypackage that helps you use os popup on Unity quickly and easily.
+unity-os-native-popup is a unitypackage that helps you use os popup on Unity quickly and easily.
 
 ### Feature
 * Show Toast Message

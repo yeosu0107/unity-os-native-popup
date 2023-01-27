@@ -13,7 +13,9 @@ public class XcodeSettingPostProcess
     private const string frameworkName = "IOSNativePlugin.framework";
     
     [PostProcessBuildAttribute(33)]
-    public static void OnPostprocessBuild(BuildTarget target, string pathToBuiltProject) {
+    public static void OnPostprocessBuild(BuildTarget target, string pathToBuiltProject)
+    {
+        return; 
         // 빌드 대상이 ios인지 확인
         if (target != BuildTarget.iOS)
         {

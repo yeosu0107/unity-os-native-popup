@@ -1,4 +1,4 @@
-
+/*
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "NativePopup/NativePopup-Swift.h"
@@ -27,14 +27,14 @@ static const char* _nativeMessageObjectName = "NativeMessageObject";
 extern "C" {
     void _init() {
     }
-    /*
+
     void _ShowAlertOneButton(const char* title, const char* message, const char* ok) {
         NativePopupManager* nativePopupMgr = [NativePopupManager alloc];
         NativePopupBridge* bridgeDelegate = [NativePopupBridge alloc];
         
         [nativePopupMgr showAlertWithTitle:[NSString stringWithUTF8String:title] message:[NSString stringWithUTF8String:message] ok:[NSString stringWithUTF8String:ok] delegate:bridgeDelegate];
     }
-    */
+
     
     void _ShowAlertTwoButton(const char* title, const char* message, const char* ok, const char* cancel) {
         NativePopupManager* nativePopupMgr = [NativePopupManager alloc];
@@ -50,7 +50,7 @@ extern "C" {
 }
 
 
-/*
+
 @interface NativeMessageBridge : NSObject<NativeMessageProtocol>
 
 @end

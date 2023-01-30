@@ -20,6 +20,11 @@ private func unsafePtrToString(input: UnsafePointer<CChar>) -> String {
     }
 }
 
+@_cdecl("_init")
+public func mockInit() {
+    
+}
+
 @_cdecl("_ShowAlertOneButton")
 public func showAlertOneBtn(title: UnsafePointer<CChar>, message: UnsafePointer<CChar>, okBtn: UnsafePointer<CChar>) {
     let mgr = NativePopupManager()
@@ -31,9 +36,9 @@ public func showAlertOneBtn(title: UnsafePointer<CChar>, message: UnsafePointer<
     
     mgr.showAlert(title: titleStr, message: messageStr, ok: okBtnStr, delegate: delegate)
 }
-/*
+
 @_cdecl("_ShowAlertTwoButton")
-public func showAlertOneBtn(title: UnsafePointer<CChar>, message: UnsafePointer<CChar>, okBtn: UnsafePointer<CChar>, cancelBtn: UnsafePointer<CChar>) {
+public func showAlertTwoButton(title: UnsafePointer<CChar>, message: UnsafePointer<CChar>, okBtn: UnsafePointer<CChar>, cancelBtn: UnsafePointer<CChar>) {
     let mgr = NativePopupManager()
     let delegate = BridgeDelegate()
     
@@ -46,11 +51,11 @@ public func showAlertOneBtn(title: UnsafePointer<CChar>, message: UnsafePointer<
 }
 
 @_cdecl("_ShowToast")
-public func showAlertOneBtn(message: UnsafePointer<CChar>, duration: Double) {
+public func showToast(message: UnsafePointer<CChar>, duration: Double) {
     let mgr = NativePopupManager()
     
     let messageStr = unsafePtrToString(input: message)
 
     mgr.showToast(message: messageStr, duration: duration)
 }
-*/
+

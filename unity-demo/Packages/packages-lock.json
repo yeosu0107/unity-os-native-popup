@@ -190,7 +190,7 @@
       }
     },
     "com.yeosu0107.nativepopup": {
-      "version": "file:/Users/sungwoo.yeo/repos/unity-os-native-popup/com.yeosu0107.nativepopup",
+      "version": "file:../../com.yeosu0107.nativepopup",
       "depth": 0,
       "source": "local",
       "dependencies": {}

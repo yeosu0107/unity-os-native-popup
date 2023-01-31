@@ -1,0 +1,14 @@
+{
+  "name": "com.yeosu0107.nativepopup",
+  "displayName": "Mobile Native Popup",
+  "version": "0.0.2",
+  "unity": "2019.3",
+  "files": [
+    "NativePopup.asmdef"
+  ],
+  "description": "use os popup on unity quickly and easily",
+  "keywords": [
+    "mobile",
+    "popup"
+  ]
+}

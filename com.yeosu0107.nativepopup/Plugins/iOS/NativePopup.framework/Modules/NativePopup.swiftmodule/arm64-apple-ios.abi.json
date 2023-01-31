@@ -1,0 +1,2223 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NativePopup",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertType",
+        "printedName": "AlertType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onebtn",
+            "printedName": "onebtn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NativePopup.AlertType.Type) -> NativePopup.AlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "NativePopup.AlertType",
+                    "usr": "s:11NativePopup9AlertTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NativePopup.AlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "NativePopup.AlertType",
+                        "usr": "s:11NativePopup9AlertTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NativePopup9AlertTypeO6onebtnyA2CmF",
+            "mangledName": "$s11NativePopup9AlertTypeO6onebtnyA2CmF",
+            "moduleName": "NativePopup",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "twobtn",
+            "printedName": "twobtn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NativePopup.AlertType.Type) -> NativePopup.AlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "NativePopup.AlertType",
+                    "usr": "s:11NativePopup9AlertTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NativePopup.AlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "NativePopup.AlertType",
+                        "usr": "s:11NativePopup9AlertTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NativePopup9AlertTypeO6twobtnyA2CmF",
+            "mangledName": "$s11NativePopup9AlertTypeO6twobtnyA2CmF",
+            "moduleName": "NativePopup",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertType",
+                "printedName": "NativePopup.AlertType",
+                "usr": "s:11NativePopup9AlertTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertType",
+                "printedName": "NativePopup.AlertType",
+                "usr": "s:11NativePopup9AlertTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup9AlertTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11NativePopup9AlertTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "NativePopup",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertTypeO9hashValueSivp",
+            "mangledName": "$s11NativePopup9AlertTypeO9hashValueSivp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertTypeO9hashValueSivg",
+                "mangledName": "$s11NativePopup9AlertTypeO9hashValueSivg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup9AlertTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11NativePopup9AlertTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11NativePopup9AlertTypeO",
+        "mangledName": "$s11NativePopup9AlertTypeO",
+        "moduleName": "NativePopup",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertInfo",
+        "printedName": "AlertInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "alertType",
+            "printedName": "alertType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertType",
+                "printedName": "NativePopup.AlertType",
+                "usr": "s:11NativePopup9AlertTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertInfoV9alertTypeAA0cF0Ovp",
+            "mangledName": "$s11NativePopup9AlertInfoV9alertTypeAA0cF0Ovp",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "NativePopup.AlertType",
+                    "usr": "s:11NativePopup9AlertTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV9alertTypeAA0cF0Ovg",
+                "mangledName": "$s11NativePopup9AlertInfoV9alertTypeAA0cF0Ovg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertInfoV5titleSSvp",
+            "mangledName": "$s11NativePopup9AlertInfoV5titleSSvp",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV5titleSSvg",
+                "mangledName": "$s11NativePopup9AlertInfoV5titleSSvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertInfoV7messageSSvp",
+            "mangledName": "$s11NativePopup9AlertInfoV7messageSSvp",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV7messageSSvg",
+                "mangledName": "$s11NativePopup9AlertInfoV7messageSSvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "okBtn",
+            "printedName": "okBtn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertInfoV5okBtnSSSgvp",
+            "mangledName": "$s11NativePopup9AlertInfoV5okBtnSSSgvp",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV5okBtnSSSgvg",
+                "mangledName": "$s11NativePopup9AlertInfoV5okBtnSSSgvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelBtn",
+            "printedName": "cancelBtn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertInfoV9cancelBtnSSSgvp",
+            "mangledName": "$s11NativePopup9AlertInfoV9cancelBtnSSSgvp",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV9cancelBtnSSSgvg",
+                "mangledName": "$s11NativePopup9AlertInfoV9cancelBtnSSSgvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(alertType:title:message:okBtn:cancelBtn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertInfo",
+                "printedName": "NativePopup.AlertInfo",
+                "usr": "s:11NativePopup9AlertInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertType",
+                "printedName": "NativePopup.AlertType",
+                "usr": "s:11NativePopup9AlertTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11NativePopup9AlertInfoV9alertType5title7message5okBtn06cancelJ0AcA0cF0O_S3SSgAKtcfc",
+            "mangledName": "$s11NativePopup9AlertInfoV9alertType5title7message5okBtn06cancelJ0AcA0cF0O_S3SSgAKtcfc",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "empty",
+            "printedName": "empty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertInfo",
+                "printedName": "NativePopup.AlertInfo",
+                "usr": "s:11NativePopup9AlertInfoV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertInfoV5emptyACvpZ",
+            "mangledName": "$s11NativePopup9AlertInfoV5emptyACvpZ",
+            "moduleName": "NativePopup",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertInfo",
+                    "printedName": "NativePopup.AlertInfo",
+                    "usr": "s:11NativePopup9AlertInfoV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV5emptyACvgZ",
+                "mangledName": "$s11NativePopup9AlertInfoV5emptyACvgZ",
+                "moduleName": "NativePopup",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertInfo",
+                    "printedName": "NativePopup.AlertInfo",
+                    "usr": "s:11NativePopup9AlertInfoV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV5emptyACvsZ",
+                "mangledName": "$s11NativePopup9AlertInfoV5emptyACvsZ",
+                "moduleName": "NativePopup",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertInfoV5emptyACvMZ",
+                "mangledName": "$s11NativePopup9AlertInfoV5emptyACvMZ",
+                "moduleName": "NativePopup",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11NativePopup9AlertInfoV",
+        "mangledName": "$s11NativePopup9AlertInfoV",
+        "moduleName": "NativePopup",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NativePopup",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NativePopup"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertViewModel",
+        "printedName": "AlertViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "showAlertFlag",
+            "printedName": "showAlertFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC04showC4FlagSbvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC04showC4FlagSbvp",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC04showC4FlagSbvg",
+                "mangledName": "$s11NativePopup14AlertViewModelC04showC4FlagSbvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC04showC4FlagSbvs",
+                "mangledName": "$s11NativePopup14AlertViewModelC04showC4FlagSbvs",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC04showC4FlagSbvM",
+                "mangledName": "$s11NativePopup14AlertViewModelC04showC4FlagSbvM",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$showAlertFlag",
+            "printedName": "$showAlertFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s11NativePopup14AlertViewModelC05$showC4Flag7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_showAlertFlag",
+            "printedName": "_showAlertFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC05_showC4Flag33_B171AE880292F9265D84356B793D76FDLL7Combine9PublishedVySbGvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC05_showC4Flag33_B171AE880292F9265D84356B793D76FDLL7Combine9PublishedVySbGvp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "alertInfo",
+            "printedName": "alertInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertInfo",
+                "printedName": "NativePopup.AlertInfo",
+                "usr": "s:11NativePopup9AlertInfoV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC9alertInfoAA0cG0Vvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC9alertInfoAA0cG0Vvp",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertInfo",
+                    "printedName": "NativePopup.AlertInfo",
+                    "usr": "s:11NativePopup9AlertInfoV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC9alertInfoAA0cG0Vvg",
+                "mangledName": "$s11NativePopup14AlertViewModelC9alertInfoAA0cG0Vvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertInfo",
+                    "printedName": "NativePopup.AlertInfo",
+                    "usr": "s:11NativePopup9AlertInfoV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC9alertInfoAA0cG0Vvs",
+                "mangledName": "$s11NativePopup14AlertViewModelC9alertInfoAA0cG0Vvs",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC9alertInfoAA0cG0VvM",
+                "mangledName": "$s11NativePopup14AlertViewModelC9alertInfoAA0cG0VvM",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$alertInfo",
+            "printedName": "$alertInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<NativePopup.AlertInfo>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_Gvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_Gvp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<NativePopup.AlertInfo>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_Gvg",
+                "mangledName": "$s11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_Gvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<NativePopup.AlertInfo>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_Gvs",
+                "mangledName": "$s11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_Gvs",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_GvM",
+                "mangledName": "$s11NativePopup14AlertViewModelC10$alertInfo7Combine9PublishedV9PublisherVyAA0cG0V_GvM",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_alertInfo",
+            "printedName": "_alertInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<NativePopup.AlertInfo>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertInfo",
+                    "printedName": "NativePopup.AlertInfo",
+                    "usr": "s:11NativePopup9AlertInfoV"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC10_alertInfo33_B171AE880292F9265D84356B793D76FDLL7Combine9PublishedVyAA0cG0VGvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC10_alertInfo33_B171AE880292F9265D84356B793D76FDLL7Combine9PublishedVyAA0cG0VGvp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NativePopup.NativePopupProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativePopupProtocol",
+                    "printedName": "NativePopup.NativePopupProtocol",
+                    "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvp",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NativePopup.NativePopupProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativePopupProtocol",
+                        "printedName": "NativePopup.NativePopupProtocol",
+                        "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvg",
+                "mangledName": "$s11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NativePopup.NativePopupProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativePopupProtocol",
+                        "printedName": "NativePopup.NativePopupProtocol",
+                        "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvs",
+                "mangledName": "$s11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvs",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvM",
+                "mangledName": "$s11NativePopup14AlertViewModelC8delegateAA0aB8Protocol_pSgvM",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewDismissPublisher",
+            "printedName": "viewDismissPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<Swift.Bool, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvp",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<Swift.Bool, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvg",
+                "mangledName": "$s11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvg",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<Swift.Bool, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvs",
+                "mangledName": "$s11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvs",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvM",
+                "mangledName": "$s11NativePopup14AlertViewModelC20viewDismissPublisher7Combine18PassthroughSubjectCySbs5NeverOGvM",
+                "moduleName": "NativePopup",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldDismissView",
+            "printedName": "shouldDismissView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup14AlertViewModelC013shouldDismissD033_B171AE880292F9265D84356B793D76FDLLSbvp",
+            "mangledName": "$s11NativePopup14AlertViewModelC013shouldDismissD033_B171AE880292F9265D84356B793D76FDLLSbvp",
+            "moduleName": "NativePopup",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(alertInfo:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertInfo",
+                "printedName": "NativePopup.AlertInfo",
+                "usr": "s:11NativePopup9AlertInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NativePopup.NativePopupProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativePopupProtocol",
+                    "printedName": "NativePopup.NativePopupProtocol",
+                    "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup14AlertViewModelC04showC09alertInfo8delegateyAA0cH0V_AA0aB8Protocol_pSgtF",
+            "mangledName": "$s11NativePopup14AlertViewModelC04showC09alertInfo8delegateyAA0cH0V_AA0aB8Protocol_pSgtF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAlert",
+            "printedName": "dismissAlert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup14AlertViewModelC07dismissC0yyF",
+            "mangledName": "$s11NativePopup14AlertViewModelC07dismissC0yyF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onOk",
+            "printedName": "onOk()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup14AlertViewModelC4onOkyyF",
+            "mangledName": "$s11NativePopup14AlertViewModelC4onOkyyF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup14AlertViewModelC8onCancelyyF",
+            "mangledName": "$s11NativePopup14AlertViewModelC8onCancelyyF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertViewModel",
+                "printedName": "NativePopup.AlertViewModel",
+                "usr": "s:11NativePopup14AlertViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11NativePopup14AlertViewModelCACycfc",
+            "mangledName": "$s11NativePopup14AlertViewModelCACycfc",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11NativePopup14AlertViewModelC",
+        "mangledName": "$s11NativePopup14AlertViewModelC",
+        "moduleName": "NativePopup",
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NativePopup",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NativePopup"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NativePopup"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativePopupManager",
+        "printedName": "NativePopupManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:message:ok:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NativePopup.NativePopupProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativePopupProtocol",
+                    "printedName": "NativePopup.NativePopupProtocol",
+                    "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup0aB7ManagerC9showAlert5title7message2ok8delegateySS_S2SSgAA0aB8Protocol_pSgtF",
+            "mangledName": "$s11NativePopup0aB7ManagerC9showAlert5title7message2ok8delegateySS_S2SSgAA0aB8Protocol_pSgtF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(title:message:ok:cancel:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NativePopup.NativePopupProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativePopupProtocol",
+                    "printedName": "NativePopup.NativePopupProtocol",
+                    "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup0aB7ManagerC9showAlert5title7message2ok6cancel8delegateySS_S2SSgAjA0aB8Protocol_pSgtF",
+            "mangledName": "$s11NativePopup0aB7ManagerC9showAlert5title7message2ok6cancel8delegateySS_S2SSgAjA0aB8Protocol_pSgtF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showToast",
+            "printedName": "showToast(message:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NativePopup0aB7ManagerC9showToast7message8durationySS_SdtF",
+            "mangledName": "$s11NativePopup0aB7ManagerC9showToast7message8durationySS_SdtF",
+            "moduleName": "NativePopup",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativePopupManager",
+                "printedName": "NativePopup.NativePopupManager",
+                "usr": "c:@M@NativePopup@objc(cs)NativePopupManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NativePopup@objc(cs)NativePopupManager(im)init",
+            "mangledName": "$s11NativePopup0aB7ManagerCACycfc",
+            "moduleName": "NativePopup",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NativePopup@objc(cs)NativePopupManager",
+        "mangledName": "$s11NativePopup0aB7ManagerC",
+        "moduleName": "NativePopup",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NativePopup",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativePopupProtocol",
+        "printedName": "NativePopupProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "OnOK",
+            "printedName": "OnOK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol(im)OnOK",
+            "mangledName": "$s11NativePopup0aB8ProtocolP4OnOKyyF",
+            "moduleName": "NativePopup",
+            "genericSig": "<τ_0_0 where τ_0_0 : NativePopup.NativePopupProtocol>",
+            "sugared_genericSig": "<Self where Self : NativePopup.NativePopupProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "OnCancel",
+            "printedName": "OnCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol(im)OnCancel",
+            "mangledName": "$s11NativePopup0aB8ProtocolP8OnCancelyyF",
+            "moduleName": "NativePopup",
+            "genericSig": "<τ_0_0 where τ_0_0 : NativePopup.NativePopupProtocol>",
+            "sugared_genericSig": "<Self where Self : NativePopup.NativePopupProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol",
+        "mangledName": "$s11NativePopup0aB8ProtocolP",
+        "moduleName": "NativePopup",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NativePopup",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertView",
+        "printedName": "AlertView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "_alertViewModel",
+            "printedName": "_alertViewModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObservedObject",
+                "printedName": "SwiftUI.ObservedObject<NativePopup.AlertViewModel>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertViewModel",
+                    "printedName": "NativePopup.AlertViewModel",
+                    "usr": "s:11NativePopup14AlertViewModelC"
+                  }
+                ],
+                "usr": "s:7SwiftUI14ObservedObjectV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertViewV06_alertD5Model33_58845ED9A64A6D291B6407862B50A33ALL7SwiftUI14ObservedObjectVyAA0cdF0CGvp",
+            "mangledName": "$s11NativePopup9AlertViewV06_alertD5Model33_58845ED9A64A6D291B6407862B50A33ALL7SwiftUI14ObservedObjectVyAA0cdF0CGvp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "_presentationMode",
+            "printedName": "_presentationMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "SwiftUI.Environment<SwiftUI.Binding<SwiftUI.PresentationMode>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<SwiftUI.PresentationMode>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMode",
+                        "printedName": "SwiftUI.PresentationMode",
+                        "usr": "s:7SwiftUI16PresentationModeV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:7SwiftUI11EnvironmentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertViewV17_presentationMode33_58845ED9A64A6D291B6407862B50A33ALL7SwiftUI11EnvironmentVyAF7BindingVyAF012PresentationF0VGGvp",
+            "mangledName": "$s11NativePopup9AlertViewV17_presentationMode33_58845ED9A64A6D291B6407862B50A33ALL7SwiftUI11EnvironmentVyAF7BindingVyAF012PresentationF0VGGvp",
+            "moduleName": "NativePopup",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(alertInfo:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertView",
+                "printedName": "NativePopup.AlertView",
+                "usr": "s:11NativePopup9AlertViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertInfo",
+                "printedName": "NativePopup.AlertInfo",
+                "usr": "s:11NativePopup9AlertInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NativePopup.NativePopupProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativePopupProtocol",
+                    "printedName": "NativePopup.NativePopupProtocol",
+                    "usr": "c:@M@NativePopup@objc(pl)NativePopupProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11NativePopup9AlertViewV9alertInfo8delegateAcA0cF0V_AA0aB8Protocol_pSgtcfc",
+            "mangledName": "$s11NativePopup9AlertViewV9alertInfo8delegateAcA0cF0V_AA0aB8Protocol_pSgtcfc",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NativePopup9AlertViewV4bodyQrvp",
+            "mangledName": "$s11NativePopup9AlertViewV4bodyQrvp",
+            "moduleName": "NativePopup",
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NativePopup9AlertViewV4bodyQrvg",
+                "mangledName": "$s11NativePopup9AlertViewV4bodyQrvg",
+                "moduleName": "NativePopup",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11NativePopup9AlertViewV",
+        "mangledName": "$s11NativePopup9AlertViewV",
+        "moduleName": "NativePopup",
+        "declAttributes": [
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sungwoo.yeo\/repos\/unity-os-native-popup\/ios-native-popup\/NativePopup\/Sources\/NativePopup\/Model\/AlertInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 388,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/sungwoo.yeo\/repos\/unity-os-native-popup\/ios-native-popup\/NativePopup\/Sources\/NativePopup\/Model\/AlertInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 32,
+      "value": "\"An unknown error has occurred.\""
+    },
+    {
+      "filePath": "\/Users\/sungwoo.yeo\/repos\/unity-os-native-popup\/ios-native-popup\/NativePopup\/Sources\/NativePopup\/Model\/AlertInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 4,
+      "value": "\"ok\""
+    },
+    {
+      "filePath": "\/Users\/sungwoo.yeo\/repos\/unity-os-native-popup\/ios-native-popup\/NativePopup\/Sources\/NativePopup\/Model\/AlertViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sungwoo.yeo\/repos\/unity-os-native-popup\/ios-native-popup\/NativePopup\/Sources\/NativePopup\/Model\/AlertViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 406,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

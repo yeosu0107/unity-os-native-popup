@@ -14,7 +14,7 @@ echo "copy ios plugin to unity plugin path"
 cd ..
 frameworkName="NativePopup.framework"
 iOS_build_path="ios-native-popup/NativePopup/"$frameworkName
-unity_iOS_path="Unity/Assets/NativePopupPlugin/Plugins/iOS/"
+unity_iOS_path="com.yeosu0107.nativepopup/Plugins/iOS/"
 
 cp -r $iOS_build_path $unity_iOS_path
 

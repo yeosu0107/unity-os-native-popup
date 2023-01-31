@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Packages/com.yeosu0107.nativepopup/Demo/Demo.unity
-    guid: f4122d5ac4bf34dc9a575d8a8530048a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

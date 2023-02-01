@@ -1,7 +1,7 @@
 {
   "name": "com.yeosu0107.nativepopup",
   "displayName": "Mobile Native Popup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "unity": "2020.1",
   "description": "use os popup on unity quickly and easily"
 }

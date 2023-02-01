@@ -7,8 +7,6 @@
     "NativePopup.asmdef"
   ],
   "description": "use os popup on unity quickly and easily",
-  "keywords": [
-    "mobile",
-    "popup"
-  ]
+  "hideInEditor": false,
+  "type": "module"
 }
